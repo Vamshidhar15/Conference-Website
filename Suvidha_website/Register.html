@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body><center>
+    <h1><b><u>Registration Form</u></b></h1>
+
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+        First name* : <input type="text" placeholder="Name" required><br>
+        Last name* : <input type="text" placeholder="Surname" required><br>
+        Password* : <input type="password" placeholder="password" required><br>
+        Gender :<br>
+        <input type="radio" value="male">Male<br>
+        <input type="radio" value="female">Female<br>
+        <input type="radio" value="other">Other<br>
+
+        Mail* : <input type="mail"><br>
+
+        Phone Number* : <input type="number"><br>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Education Details</legend>
+        Highest level of Education:
+        <input list="education">
+          <datalist id="education">
+            <option value="P.G">
+            <option value="U.G">
+            <option value="XII">
+
+          </datalist><br>
+
+        Have you previously Published a paper? :<br>
+        <input type="radio" value="yes">Yes<br>
+        <input type="radio" value="no">No<br>
+
+
+      </fieldset>
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+   </center>
+ </body>
+</html>
